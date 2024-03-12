@@ -1,0 +1,85 @@
+spring:
+  cloud:
+    gateway:
+        routes:
+
+            # Query=bd 代表请求参数中必须包含bd
+#        - id: test
+#          uri: https://www.baidu.com
+#          predicates:
+#          - Query=bd
+#        - id: test2
+#          uri: https://www.jd.com
+#          predicates:
+#          - Query=url,jd
+
+#        - id: after
+#          uri: https://www.baidu.com
+#          predicates:
+#             - After= 1710211823186  # 52分之后  1710212063186 # 54分
+
+#        - id: before
+#          uri: https://www.baidu.com
+#          predicates:
+#             - Before= 1710212063186  # 54分之前  1710211823186 # 52分
+
+#        - id: between
+#          uri: https://www.baidu.com
+#          predicates:
+#             - Between= 1710211823186,1710212483186  # 10.50分到11.1分之间
+
+#        - id: cookie
+#          uri: https://www.baidu.com
+#          predicates:
+#             - Cookie=token,123
+
+#        - id: header
+#          uri: https://www.baidu.com
+#          predicates:
+#             - Header=X-Request-Id, \d+
+
+#        - id: host
+#          uri: https://www.baidu.com
+#          predicates:
+#             - Host=**.baidu.com
+
+#        - id: method
+#          uri: https://www.baidu.com
+#          predicates:
+#             - Method=GET,post
+
+#        - id: path
+#          uri: https://www.baidu.com
+#          predicates:
+#             - Path=/foo/****
+
+
+
+#        - id: remoteAddr
+#          uri: https://www.baidu.com
+#          predicates:
+#             - RemoteAddr=
+
+#        - id: weight1
+#          uri: http://localhost:88/test
+#          predicates:
+#            - Path=/test
+#            - Weight=group1, 5
+#
+#        - id: weight2
+#          uri: http://localhost:88/test2/test
+#          predicates:
+#            - Path=/test
+#            - Weight=group1, 5
+
+#          - id: XForwardedRemoveAddr
+#            uri: https://www.baidu.com
+#            predicates:
+#               - XForwardedRemoteAddr=192.168.1.1/24
+
+
+
+
+
+
+
